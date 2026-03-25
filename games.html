@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="assets/favi.ico">
+  <meta name="description" content="Browse Gamevia's free-to-play social casino catalog with slots, roulette, blackjack, poker, wheel, dice, and baccarat in a clean dark theme.">
+  <title>Games — Gamevia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="gh-skip" href="#main">Skip to content</a>
+
+  <header class="gh-top">
+    <div class="sc-shell gh-top__in">
+      <a class="gh-brand" href="index.html" aria-label="Gamevia home">
+        <img src="assets/logo.webp" alt="Gamevia logo">
+        
+      </a>
+      <div style="display:flex;align-items:center;gap:12px">
+        <div class="gh-burst">Free-to-play social casino</div>
+        <button class="gh-burger" aria-label="Open menu" aria-expanded="false" aria-controls="gh-nav"><span></span><span></span><span></span></button>
+      </div>
+      <nav class="gh-nav" id="gh-nav">
+        <a href="index.html">Home</a>
+        <a href="games.html" class="is-active">Games</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="responsible-play.html">Responsible Play</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="gh-page">
+    <section class="gh-hero">
+      <div class="sc-shell gh-hero__box">
+        <div>
+          <span class="gh-kicker">Game catalog</span>
+          <h1>Every title in one clean lobby.</h1>
+          <p>Use the category chips to filter the Gamevia social casino catalog. The layout stays simple so the focus remains on the game listings.</p>
+          <div class="sc-hero__cta">
+            <a class="sc-btn sc-btn--primary" href="#catalog">Browse catalog</a>
+            <a class="sc-btn sc-btn--ghost" href="responsible-play.html">Play responsibly</a>
+          </div>
+        </div>
+        <div class="gh-hero__media"><img src="assets/game_back.webp" alt="Gamevia game background"></div>
+      </div>
+    </section>
+
+    <section id="catalog" class="sc-section">
+      <div class="sc-shell">
+        <div class="sc-section-head">
+          <div>
+            <h2>Game listings</h2>
+            <p>Cards are used here only, keeping the social casino browsing experience visual without turning the rest of the site into a dashboard.</p>
+          </div>
+        </div>
+        <div class="sc-lane" role="toolbar" aria-label="Filter games">
+          <button type="button" class="sc-chip" data-gh-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="sc-chip" data-gh-filter="slots" aria-pressed="false">Slots</button>
+          <button type="button" class="sc-chip" data-gh-filter="roulette" aria-pressed="false">Roulette</button>
+          <button type="button" class="sc-chip" data-gh-filter="blackjack" aria-pressed="false">Blackjack</button>
+          <button type="button" class="sc-chip" data-gh-filter="poker" aria-pressed="false">Poker</button>
+          <button type="button" class="sc-chip" data-gh-filter="wheel" aria-pressed="false">Wheel</button>
+          <button type="button" class="sc-chip" data-gh-filter="dice" aria-pressed="false">Dice</button>
+          <button type="button" class="sc-chip" data-gh-filter="baccarat" aria-pressed="false">Baccarat</button>
+        </div>
+
+        <div class="sc-grid" id="gh-list" style="margin-top:18px">
+          <a class="sc-card" data-gh-cat="slots" href="games/slot-machine/index.html">
+            <div class="sc-card__wrap">
+              <div class="sc-card__visual"><img src="assets/game_card_slot.webp" alt="Neon Slots Rush Deluxe"></div>
+              <div class="sc-card__panel">
+                <div class="sc-card__eyebrow"><span class="sc-badge sc-badge--hot">Hot</span><span class="sc-label">Free to Play</span></div>
+                <h3 class="sc-title">Neon Slots Rush Deluxe</h3>
+                <p class="sc-desc">Bright slot-style artwork with a faster lobby feel and clean mobile scaling.</p>
+                <div class="sc-meta"><span>Slots · free to play</span><button class="sc-cta">Play Free</button></div>
+              </div>
+            </div>
+            <div class="sc-card__stack"></div>
+          </a>
+
+          <a class="sc-card" data-gh-cat="roulette" href="games/roulette/index.html">
+            <div class="sc-card__wrap">
+              <div class="sc-card__visual"><img src="assets/roulette.webp" alt="Mega Roulette Spin X"></div>
+              <div class="sc-card__panel">
+                <div class="sc-card__eyebrow"><span class="sc-badge sc-badge--new">New</span><span class="sc-label">Social Casino</span></div>
+                <h3 class="sc-title">Mega Roulette Spin X</h3>
+                <p class="sc-desc">A roulette-focused card with layered depth, smooth image zoom, and a stronger call to action.</p>
+                <div class="sc-meta"><span>Roulette · free to play</span><button class="sc-cta">Play Free</button></div>
+              </div>
+            </div>
+            <div class="sc-card__stack"></div>
+          </a>
+
+          <a class="sc-card" data-gh-cat="blackjack" href="games/blackjack/index.html">
+            <div class="sc-card__wrap">
+              <div class="sc-card__visual"><img src="assets/blackjack.webp" alt="Lucky Blackjack Pro"></div>
+              <div class="sc-card__panel">
+                <div class="sc-card__eyebrow"><span class="sc-badge sc-badge--pop">Popular</span><span class="sc-label">Social Casino</span></div>
+                <h3 class="sc-title">Lucky Blackjack Pro</h3>
+                <p class="sc-desc">A sharper blackjack presentation with improved alignment between media, text, and CTA.</p>
+                <div class="sc-meta"><span>Blackjack · free to play</span><button class="sc-cta">Play Free</button></div>
+              </div>
+            </div>
+            <div class="sc-card__stack"></div>
+          </a>
+
+          <a class="sc-card" data-gh-cat="poker" href="games/Texas-Holdem/index.html">
+            <div class="sc-card__wrap">
+              <div class="sc-card__visual"><img src="assets/poker.webp" alt="Royal Poker Wheel Nova"></div>
+              <div class="sc-card__panel">
+                <div class="sc-card__eyebrow"><span class="sc-badge sc-badge--hot">Featured</span><span class="sc-label">Free to Play</span></div>
+                <h3 class="sc-title">Royal Poker Wheel Nova</h3>
+                <p class="sc-desc">A hybrid poker-forward tile that keeps the familiar base naming style while looking newly packaged.</p>
+                <div class="sc-meta"><span>Poker · free to play</span><button class="sc-cta">Play Free</button></div>
+              </div>
+            </div>
+            <div class="sc-card__stack"></div>
+          </a>
+
+          <a class="sc-card" data-gh-cat="wheel" href="games/hi-lo-lounge/index.html">
+            <div class="sc-card__wrap">
+              <div class="sc-card__visual"><img src="assets/playing-card.webp" alt="Golden Wheel Roulette Max"></div>
+              <div class="sc-card__panel">
+                <div class="sc-card__eyebrow"><span class="sc-badge sc-badge--new">New</span><span class="sc-label">Social Casino</span></div>
+                <h3 class="sc-title">Golden Wheel Roulette Max</h3>
+                <p class="sc-desc">A high-contrast wheel card styled for quick scanning and clean responsive stacking.</p>
+                <div class="sc-meta"><span>Wheel · free to play</span><button class="sc-cta">Play Free</button></div>
+              </div>
+            </div>
+            <div class="sc-card__stack"></div>
+          </a>
+
+          <a class="sc-card" data-gh-cat="dice" href="games/craps-game/index.html">
+            <div class="sc-card__wrap">
+              <div class="sc-card__visual"><img src="assets/dice.webp" alt="Prism Dice Roll X"></div>
+              <div class="sc-card__panel">
+                <div class="sc-card__eyebrow"><span class="sc-badge sc-badge--pop">Popular</span><span class="sc-label">Free to Play</span></div>
+                <h3 class="sc-title">Prism Dice Roll X</h3>
+                <p class="sc-desc">A compact dice option added to widen the catalog without changing the existing game structure.</p>
+                <div class="sc-meta"><span>Dice · free to play</span><button class="sc-cta">Play Free</button></div>
+              </div>
+            </div>
+            <div class="sc-card__stack"></div>
+          </a>
+
+          <a class="sc-card" data-gh-cat="baccarat" href="games/Baccarat/index.html">
+            <div class="sc-card__wrap">
+              <div class="sc-card__visual"><img src="assets/baccarat.webp" alt="Velvet Baccarat Lounge"></div>
+              <div class="sc-card__panel">
+                <div class="sc-card__eyebrow"><span class="sc-badge sc-badge--hot">Spotlight</span><span class="sc-label">Social Casino</span></div>
+                <h3 class="sc-title">Velvet Baccarat Lounge</h3>
+                <p class="sc-desc">A refined baccarat tile with deeper imagery and a lounge-style treatment that fits the new site theme.</p>
+                <div class="sc-meta"><span>Baccarat · free to play</span><button class="sc-cta">Play Free</button></div>
+              </div>
+            </div>
+            <div class="sc-card__stack"></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="gh-foot">
+    <div class="sc-shell">
+      <div class="gh-foot__top">
+        <div class="gh-foot__brand">
+          <img src="assets/logo.webp" alt="Gamevia logo">
+          <div>
+            <div class="gh-foot__name">Gamevia</div>
+            <p>Use the catalog to jump into the social casino game pages while keeping the main site clean and aligned.</p>
+          </div>
+        </div>
+        <div class="gh-foot__col">
+          <h3>Explore</h3>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="gh-foot__col">
+          <h3>Policy</h3>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-of-use.html">Terms of Use</a>
+          <a href="responsible-play.html">Responsible Play</a>
+        </div>
+      </div>
+      <p class="gh-foot__legal">Gamevia is a free-to-play social casino. No purchase is required, and in-game credits hold no real-world monetary value. Updated March 2026.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
